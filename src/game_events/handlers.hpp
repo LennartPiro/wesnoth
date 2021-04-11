@@ -41,6 +41,8 @@ struct event_filter {
 	virtual bool operator()(const queued_event& event_info) const = 0;
 	/** Serializes the filter into a config, if possible. */
 	virtual void serialize(config& cfg) const;
+	/** Returns true if it is possible to serialize the filter into a config. */
+	virtual bool can_serialize() const;
 	virtual ~event_filter() = default;
 	event_filter() = default;
 private:
@@ -120,13 +122,14 @@ public:
 	void add_filter(std::unique_ptr<event_filter>&& filter);
 	
 	void register_wml_event(game_lua_kernel& lk);
-	void set_event_ref(int idx);
+	void set_event_ref(int idx, bool has_preloaded);
 
 private:
 	bool first_time_only_;
 	bool is_menu_item_;
 	bool disabled_;
 	bool is_lua_;
+	bool has_preloaded_;
 	int event_ref_;
 	config args_;
 	std::vector<std::shared_ptr<event_filter>> filters_;
