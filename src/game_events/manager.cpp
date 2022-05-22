@@ -94,6 +94,8 @@ void manager::add_event_handler_from_wml(const config& handler, game_lua_kernel&
 			<< (is_menu_item ? "; menu item)" : ")")
 			<< " with the following actions:\n"
 			<< args.debug();
+	} else {
+		DBG_EH << "Content of that event:\n" << handler.debug() << "\n";
 	}
 }
 

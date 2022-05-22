@@ -107,8 +107,6 @@ pending_event_handler event_handlers::add_event_handler(const std::string& name,
 
 	if(name.empty() && id.empty()) {
 		lg::log_to_chat() << "[event] is missing name or id field\n";
-		ERR_WML << "[event] is missing name or id field\n";
-		DBG_WML << "Content of that event:\n" << cfg.debug() << "\n";
 		return {*this, nullptr};
 	}
 
