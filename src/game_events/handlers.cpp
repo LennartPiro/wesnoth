@@ -140,7 +140,7 @@ void event_handler::write_config(config &cfg) const
 		static const char* log = "Skipping serialization of an event with action bound to Lua code";
 		if(has_preloaded_){
 			WRN_NG << log << log_append_postload;
-			lg::wml_error() << log << log_append_postload;
+			lg::log_to_chat() << log << log_append_postload;
 		} else {
 			LOG_NG << log << log_append_preload;
 		}
@@ -150,7 +150,7 @@ void event_handler::write_config(config &cfg) const
 		static const char* log = "Skipping serialization of an event with filter bound to Lua code";
 		if(has_preloaded_) {
 			WRN_NG << log << log_append_postload;
-			lg::wml_error() << log << log_append_postload;
+			lg::log_to_chat() << log << log_append_postload;
 		} else {
 			LOG_NG << log << log_append_preload;
 		}
