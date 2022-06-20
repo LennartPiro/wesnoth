@@ -1394,7 +1394,7 @@ msgstr ""
 "LP geheilt – dies ist halb so viel wie in Dörfern. Die Schamanin erhält "
 "keine Erfahrung durch das Heilen, sondern ausschließlich im Kampf. Es lohnt "
 "sich jedoch ungemein Schamaninnen auf eine neue Stufe aufsteigen zu lassen – "
-"die Elfendruidin auf Stude 2 heilt soviel wie ein Dorf.\n"
+"die Elfendruidin auf Stufe 2 heilt soviel wie ein Dorf.\n"
 "\n"
 "Eine detaillierte Erklärung der Heilenfertigkeit kann in der Abteilung "
 "<i>Spielregeln</i> in der Hilfe eingesehen werden (erreichbar über "
@@ -1465,7 +1465,7 @@ msgstr ""
 "\n"
 "Sollte es Euch gelingen, eine Schamanin zu eine Druidin aufsteigen zu "
 "lassen, so kann sie 8 LP pro Runde heilen. Eine Einheit neben mehreren "
-"Heilern wird von dem besten Heiler geheilt"
+"Heilern wird von dem besten Heiler geheilt."
 
 #. [message]: speaker=narrator
 #. one healer is a level one shaman, but the other healer is a druid or (very unlikely) a shyde
@@ -1617,7 +1617,7 @@ msgid ""
 "You forgot to capture a village! You can press <b>u</b> to undo your last "
 "move."
 msgstr ""
-"Ihr habt vegressen ein Dorf einzunehmen! Nach dieser Meldung könnt Ihr <b>u</"
+"Ihr habt vergessen ein Dorf einzunehmen! Nach dieser Meldung könnt Ihr <b>u</"
 "b> drücken, um den Zug zurückzunehmen und es dann erneut versuchen."
 
 #. [message]: speaker=Galdrad
@@ -1887,7 +1887,7 @@ msgid ""
 "If one of your Shamans stands just behind you, she will heal you 4 hitpoints "
 "at the beginning of the next turn."
 msgstr ""
-"Wenn eine Eurer Schamaninen direkt hinter einer Einheit steht, wird sie sie "
+"Wenn eine Eurer Schamaninnen direkt hinter einer Einheit steht, wird sie sie "
 "am Anfang des nächsten Zuges um 4 Lebenspunkte heilen."
 
 # XXX - female shaman -- two strings needed
@@ -2045,7 +2045,7 @@ msgstr ""
 "tagsüber besser, manche in der Nacht, und wiederum andere sind nicht davon "
 "beeinflusst. Welche Einheiten gerade einen Bonus haben, wird in der "
 "Seitenleiste angezeigt. Bewegt die Maus über das Bild in der Seitenleiste, "
-"um zu sehen, wie der <i>Tag-/Nacheinfluss</i> im Moment ist."
+"um zu sehen, wie der <i>Tag-/Nachteinfluss</i> im Moment ist."
 
 #. [then]
 #. [else]
