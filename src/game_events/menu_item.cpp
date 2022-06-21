@@ -204,7 +204,7 @@ void wml_menu_item::finish_handler()
 	}
 }
 
-void wml_menu_item::init_handler(game_lua_kernel& lk) const
+void wml_menu_item::init_handler(game_lua_kernel& lk)
 {
 	// If this menu item has a [command], add a handler for it.
 	if(!command_.empty()) {

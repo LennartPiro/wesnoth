@@ -110,7 +110,7 @@ public:
 	void finish_handler();
 
 	/** Initializes the implicit event handler for an inlined [command]. */
-	void init_handler(game_lua_kernel& lk) const;
+	void init_handler(game_lua_kernel& lk);
 
 	/**
 	 * The text to put in a menu for this item.
