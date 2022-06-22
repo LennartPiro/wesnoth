@@ -101,7 +101,7 @@ public:
 		return !first_time_only_;
 	}
 	
-	void write_config(config& cfg) const;
+	void write_config(config& cfg, bool include_nonserializable = false) const;
 	
 	void set_repeatable(bool repeat = true)
 	{
