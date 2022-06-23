@@ -2872,7 +2872,7 @@ msgstr "Eine Kampagne spielen"
 #: data/gui/window/campaign_dialog.cfg:482
 #: data/gui/window/campaign_difficulty.cfg:221
 msgid "game^Play"
-msgstr ""
+msgstr "Spielen"
 
 #. [label]: id=title
 #. [slider]: id=enemey_gold_factor
